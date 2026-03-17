@@ -2,15 +2,19 @@
 
 
 Project: 
+
 Mall Customer Segmentation — Unsupervised Machine Learning & Behavioral Profiling
 
 Overview:
+
 This project applies Unsupervised Machine Learning to segment a dataset of mall customers into distinct behavioral archetypes. By leveraging K-Means Clustering, the analysis moves beyond basic demographics to identify high-value "Elite" spenders and "Frugal" casual shoppers, enabling data-driven retail strategies.
 
 Executive Summary:
+
 The goal is to solve the "Customer Intelligence Gap" by grouping customers based on their Annual Income and Spending Score. This allows for the creation of tailored marketing campaigns, optimized product placements, and enhanced customer retention strategies based on actual purchasing power rather than intuition.
 
 Dataset Profile:
+
 Target Audience: 200 unique mall customers.
 
 Core Features: Gender, Age, Annual Income (k$), and Spending Score (1–100).
@@ -20,6 +24,7 @@ Income Range: $15k to $137k per annum.
 Spending Range: 1 to 99 (Score assigned based on behavior and history).
 
 Technical Workflow:
+
 Exploratory Data Analysis (EDA): Visualizing age distributions, gender spending gaps, and income-to-spend correlations.
 
 The "Elbow" Method: Utilizing Within-Cluster Sum of Squares (WCSS) to mathematically determine the optimal number of clusters (k=5).
